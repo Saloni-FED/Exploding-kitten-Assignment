@@ -4,11 +4,11 @@ import Line from "../assets/images/f-line.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-black py-10 lg:py-20">
+      <div className="bg-black py-10 lg:py-20 overflow-x-hidden ">
         <div className="container mx-auto flex flex-wrap justify-center lg:justify-between gap-8 px-4 lg:px-20">
-          <div className="w-full md:basis-1/4  lg:mb-0 flex flex-col items-center lg:items-start ">
-            <img src={logo} alt="logo" className="h-10" />
-            <p className="text-gray-400 mt-5 text-sm lg:text-base text-center lg:text-left">
+          <div className="w-full md:basis-1/4  lg:mb-0 flex flex-col  lg:items-start ">
+            <img src={logo} alt="logo" className="h-10 " />
+            <p className="text-gray-400 mt-5 text-sm lg:text-base  text-left">
               Nam purus nibh, luctus at cursus vel, efficitur eu dui. Aenean
               tellus massa, euismod eu dictum in, tincidunt ac lacus. Quisque
               vitae tellus a nibh sollicitudin viverra id sed libero.

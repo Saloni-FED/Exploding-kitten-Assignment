@@ -6,7 +6,7 @@ import Update from "../Components/Update";
 const AboutMe = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full overflow-hidden">
         <main className="px-4 md:px-0 md:py-32 bg-gray-300 min-h-screen">
           <div className="w-full mx-auto">
             <div className="flex justify-center items-center text-white md:pt-56">

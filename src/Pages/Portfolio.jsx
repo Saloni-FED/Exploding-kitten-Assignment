@@ -31,7 +31,7 @@ const Portfolio = () => {
           {pathname.substring(1)}
         </motion.div>
         <motion.div
-          className="h-screen w-screen bg-white text-black fixed rounded-t-[100px] z-30"
+          className="h-screen md:w-screen bg-white text-black fixed rounded-t-[100px] z-30"
           initial={{ height: "140vh" }}
           animate={{ height: "0vh", transition: { delay: 0.5 } }}
         />

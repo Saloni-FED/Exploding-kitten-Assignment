@@ -14,7 +14,7 @@ const Carousel = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // Adjust breakpoints as needed
+        breakpoint: 768, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -38,11 +38,11 @@ const Carousel = () => {
   };
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-x-hidden overflow-y-hidden w-full">
       <Slider {...settings}>
         <div className="px-4">
           <div className="text-center">
-            <img src={qt} alt="qt" className="mx-auto" />
+            <img src={qt} alt="qt" className="mx-auto " />
           </div>
           <p className="text-center text-3xl leading-10 py-10">
             “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.

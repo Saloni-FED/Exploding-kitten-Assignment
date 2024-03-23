@@ -9,12 +9,14 @@ import Update from "../Update";
 const About = () => {
   return (
     <>
-      <AboutMain/>
-      <Users />
-      <Cards />
-      <Slider/>
-      <Portfolio/>
-      <News/>
+      <div className=" w-full overflow-hidden">
+        <AboutMain />
+        <Users />
+        <Cards />
+        <Slider />
+        <Portfolio />
+        <News />
+      </div>
     </>
   );
 };

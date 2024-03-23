@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const Cards = () => {
   return (
-    <section className="bg-black py-24 md:py-20">
+    <section className="bg-black  md:py-20 border-b border-blue-400 uppercase px-5 md:px-20 py-20 overflow-x-hidden md:w-screen">
       <motion.div
         className="uppercase"
         initial="hidden"

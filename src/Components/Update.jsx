@@ -1,8 +1,8 @@
-import React from "react";
 import { motion } from "framer-motion";
+
 const Update = () => {
   return (
-    <section className="bg-[#cc866c] text-white py-10">
+    <section className="bg-[#cc866c] text-white py-10 overflow-x-hidden  w-full">
       <motion.div
         className="container mx-auto px-4 md:px-10"
         initial="hidden"
@@ -13,7 +13,7 @@ const Update = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <div className="mx-auto flex flex-col md:flex-row max-w-screen-lg justify-between items-center">
+        <div className="mx-auto flex flex-col md:flex-row md:max-w-screen-lg justify-center md:justify-between items-center">
           <h2 className="text-4xl md:text-5xl font-thin mb-4 md:mb-0 text-center md:text-left">
             GET UPDATES BY SIGNING UP TO OUR NEWSLETTER
           </h2>
