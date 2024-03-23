@@ -10,11 +10,11 @@ const Slider = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "100vh",
-        overflowX: "hidden", // Prevent horizontal scrolling
+         // Prevent horizontal scrolling
       }}
-      className="py-10 md:py-20"
+      className="py-10 md:py-20 overflow-x-hidden"
     >
-      <div className="container text-white text-center mx-auto">
+      <div className="container text-white text-center mx-auto border-4 border-green-400">
         <div>
           <h5 className="text-[#cc866c] text-lg md:text-xl">TESTIMONIALS</h5>
           <h1 className="text-4xl md:text-6xl mt-3 md:mt-5 font-thin">SOME USERS FEEDBACK</h1>

@@ -8,7 +8,7 @@ const Contact = () => {
         <main className="px-4 md:px-32 py-16 md:py-32 bg-gray-300">
           <div className="text-white text-center md:text-left max-md:py-32">
             <h1 className="text-3xl md:text-5xl">Contact</h1>
-            <div className="mt-5 flex flex-col md:flex-row items-center justify-center md:justify-start gap-3 uppercase max-md:hidden">
+            <div className="mt-5 flex flex-col md:flex-row items-center justify-center gap-3 uppercase max-md:hidden">
               <NavLink exact to="/" className="hover:text-[#cc866c]">
                 Home
               </NavLink>

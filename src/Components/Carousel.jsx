@@ -38,63 +38,65 @@ const Carousel = () => {
   };
 
   return (
-    <Slider {...settings}>
-      <div className="">
-        <div>
-          <img src={qt} alt="qt" className="mx-auto " />
-        </div>
-        <p className="w-2/3 mx-auto text-3xl leading-10 py-10">
-          “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
-          Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
-          semper. Cras congue nulla sed quam hendrerit euismod”
-        </p>
-        <div className="flex justify-center items-center gap-3 uppercase ">
-          <img src={testi} alt="img" className="" />
-          <div className="text-left">
-            <h6 className="text-xl">Alexis browni JR.</h6>
-            <span className="text-sm text-[#cc866c] mt-5">
-              founder of alxis co.
-            </span>
+    <div className="overflow-hidden">
+      <Slider {...settings}>
+        <div className="px-4">
+          <div className="text-center">
+            <img src={qt} alt="qt" className="mx-auto" />
+          </div>
+          <p className="text-center text-3xl leading-10 py-10">
+            “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
+            Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
+            semper. Cras congue nulla sed quam hendrerit euismod”
+          </p>
+          <div className="flex justify-center items-center gap-3 uppercase ">
+            <img src={testi} alt="img" className="" />
+            <div className="text-left">
+              <h6 className="text-xl">Alexis Browni JR.</h6>
+              <span className="text-sm text-[#cc866c] mt-1">
+                Founder of Alxis Co.
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="">
-        <div>
-          <img src={qt} alt="qt" className="mx-auto" />
-        </div>
-        <p className="w-2/3 mx-auto text-3xl leading-10 py-10">
-          “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
-          Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
-          semper. Cras congue nulla sed quam hendrerit euismod”
-        </p>
-        <div className="flex justify-center items-center gap-3 uppercase">
-          <img src={testi} alt="img" className="" />
-          <div className="text-left">
-            <h6 className="text-xl">PAUL M MATNEY.</h6>
-            <span className="text-sm text-[#cc866c] mt-5">LAWYER</span>
+        <div className="px-4">
+          <div className="text-center">
+            <img src={qt} alt="qt" className="mx-auto" />
+          </div>
+          <p className="text-center text-3xl leading-10 py-10">
+            “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
+            Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
+            semper. Cras congue nulla sed quam hendrerit euismod”
+          </p>
+          <div className="flex justify-center items-center gap-3 uppercase">
+            <img src={testi} alt="img" className="" />
+            <div className="text-left">
+              <h6 className="text-xl">Paul M Matney.</h6>
+              <span className="text-sm text-[#cc866c] mt-1">Lawyer</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="">
-        <div>
-          <img src={qt} alt="qt" className="mx-auto" />
-        </div>
-        <p className="w-2/3 mx-auto text-3xl leading-10 py-10">
-          “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
-          Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
-          semper. Cras congue nulla sed quam hendrerit euismod”
-        </p>
-        <div className="flex justify-center items-center gap-3 uppercase ">
-          <img src={testi} alt="img" className="" />
-          <div className="text-left">
-            <h6 className="text-xl">Alexis browni JR.</h6>
-            <span className="text-sm text-[#cc866c] ">
-              founder of alxis co.
-            </span>
+        <div className="px-4">
+          <div className="text-center">
+            <img src={qt} alt="qt" className="mx-auto" />
+          </div>
+          <p className="text-center text-3xl leading-10 py-10">
+            “Etiam sodales congue consequat. Aenean vitae ullamcorper leo.
+            Pellentesque condimentum ex ut erat posuere, quis tincidunt augue
+            semper. Cras congue nulla sed quam hendrerit euismod”
+          </p>
+          <div className="flex justify-center items-center gap-3 uppercase ">
+            <img src={testi} alt="img" className="" />
+            <div className="text-left">
+              <h6 className="text-xl">Alexis Browni JR.</h6>
+              <span className="text-sm text-[#cc866c]">
+                Founder of Alxis Co.
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-    </Slider>
+      </Slider>
+    </div>
   );
 };
 

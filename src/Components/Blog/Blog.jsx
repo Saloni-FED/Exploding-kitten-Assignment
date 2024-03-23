@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
   return (
     <section id="blog" className="bg-black text-white w-full">
-      <div className="container mx-auto flex flex-col md:flex-row justify-center px-5 py-20">
+      <div className="container mx-auto flex flex-col md:gap-2 md:flex-row justify-center px-5 py-20">
         <div className="md:max-w-2/3 flex flex-col gap-10">
           {/* Blog Cards */}
           {[1, 2, 3, 4].map((index) => (

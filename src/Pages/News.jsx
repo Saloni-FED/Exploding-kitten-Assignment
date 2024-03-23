@@ -8,7 +8,7 @@ const News = () => {
           <div className="flex  justify-center items-center  text-white md:pt-56">
             <div className="max-md:pt-32">
               <h1 className="text-5xl">BLOG</h1>
-              <div className="mt-5 flex justify-center items-center gap-3 uppercase">
+              <div className="mt-5 flex justify-center items-center gap-3 uppercase max-md:hidden">
                 <div className="">
                   <h3>Home</h3>
                 </div>

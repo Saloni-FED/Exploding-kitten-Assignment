@@ -35,7 +35,7 @@ const AboutMe = () => {
           </div>
         </main>
         <AboutMain />
-        {/* <Slider />  */}
+        <Slider /> 
       </div>
     </>
   );
